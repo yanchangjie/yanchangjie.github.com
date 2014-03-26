@@ -13,10 +13,10 @@ title: CSS Selector笔记
 
 在这里我简单记录一下几个小题的解：
 
-第十题(Select all the things!)：*
-第十二题(Select every apple that's next to a plate): plate+apple
-第十三题(Select every pickle to the right of the bento): bento~pickle
-第十四题(Select the apple directly on a plate): plate>apple
-第二十六题(Select all even plates): plate:nth-child(even) or plate:nth-of-type(even)
+1.第十题(Select all the things!)：*
+2.第十二题(Select every apple that's next to a plate): plate+apple
+3.第十三题(Select every pickle to the right of the bento): bento~pickle
+4.第十四题(Select the apple directly on a plate): plate>apple
+5.第二十六题(Select all even plates): plate:nth-child(even) or plate:nth-of-type(even)
 
 小结：该网页相对来说是一个比较有趣的CSS选择器的小测试，总体难度偏简单，设计上网页右侧的提示比较人性化。题目的质量还有较大的提高空间，例如可以增加区别nth-of-type和nth-child的相关题型。nth-of-type和nth-child的区别可以在[这篇博客](http://www.zhangxinxu.com/wordpress/?p=1709)里找到，个人感觉讲得还算清楚。
