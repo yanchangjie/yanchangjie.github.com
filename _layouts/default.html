@@ -1,17 +1,17 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta charset="utf-8" />
    <title>{{ page.title }}</title>
    <meta name="author" content="Yan Changjie" />
    <link href="http://feeds.feedburner.com/Yan-Changjie" rel="alternate" title="Yan Changjie" type="application/atom+xml" />
    <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
 
    <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+   <link rel="stylesheet" href="/css/syntax.css" />
 
    <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/screen.css" />
 
    <!-- Typekit -->
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
@@ -26,14 +26,29 @@ var WRInitTime=(new Date()).getTime();
 <!-- ClickTale end of Top part -->
 
 <div class="site">
-  <div class="title">
+  <!--div class="title">
     <a href="/">Yan Changjie</a>
     <a class="extra" href="/">mark my road</a>
-  </div>
+  </div-->
+   <header role="banner" class="clearfix main-header">
+        <div class="wrapper clearfix">
+            <a href="http://yanchangjie.github.io" class="logo">
+                <img src="images/logo.png" alt="Yan Changjie" />
+            </a>
+            <nav role="navigation" class="main-nav clearfix">
+                <ul class="clearfix">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
   
   {{ content }}
   
-  <div class="footer">
+  <!--div class="footer">
     <div class="contact">
       <p>
         Yan Changjie<br />
@@ -51,7 +66,25 @@ var WRInitTime=(new Date()).getTime();
         <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
       </a>
     </div>
-  </div>
+  </div-->
+    <footer role="contentinfo" class="main-footer clearfix content-wrapper">
+        <div class="wrapper clearfix">
+            <!--nav class="social">
+                <ul>
+                </ul>
+            </nav-->
+            <nav role="navigation" class="footer-nav clearfix">
+                <ul class="clearfix">
+                    <li><a href="http://twitter.com/SaraSoueidan" class="icon-twitter-3"></a></li>
+                    <li><a href="http://github.com/yanchangjie" class="icon-github-01"></a></li>
+                    <li><a href="http://feeds.feedburner.com/yanchangjie">RSS</a></li>
+                    <li><a href="license.php"  >License &amp; Terms of Use</a></li>
+                </ul>
+            </nav>
+            <p class="copyright">Copyright &copy: Yan Changjie 2014</p>
+        </div><!--end footer wrapper-->
+    </footer>
+
 </div>
 
 <a href="http://github.com/yanchangjie"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
