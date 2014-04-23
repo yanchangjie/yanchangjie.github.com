@@ -316,6 +316,8 @@ a img {
     margin: 1.3rem 0;
     width: 220px;
     float: left;  
+    font-weight: bold;
+    font-size: 200%;
 }
 
 .logo img {
