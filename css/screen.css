@@ -56,12 +56,12 @@
 /* Home
 /*
 /*****************************************************************************/
-#home {
+/*#home {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
-}
+}*/
 
 ul.posts {
   list-style-type: none;
@@ -84,13 +84,13 @@ ul.posts {
 /*
 /*****************************************************************************/
 
- #home {
+/* #home {
   font-size: 110%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
-}
+}*/
 
 /*.title {
   color: #a00;
@@ -98,7 +98,7 @@ ul.posts {
   margin-bottom: 2em;
 }*/
 
-  #home a {
+ /* #home a {
     color: #a00;
     text-decoration: none;
   }
@@ -147,7 +147,7 @@ ul.posts {
       #home img {
         border: 0;
       }
-
+*/
 /*****************************************************************************/
 /*
 /* Posts
