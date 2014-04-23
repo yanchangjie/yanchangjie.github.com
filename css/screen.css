@@ -84,13 +84,13 @@ ul.posts {
 /*
 /*****************************************************************************/
 
-/* #home {
-  font-size: 110%;
+ #home {
+  /*font-size: 110%;*/
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
-}*/
+}
 
 /*.title {
   color: #a00;
