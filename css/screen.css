@@ -6,47 +6,47 @@
 
 /* Global Reset */
 
-/** {
+ .home {
   margin: 0;
   padding: 0;
 }
 
-html, body {
+ .home {
   height: 100%;
 }
 
-body {
+.home {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.home h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
-h1 {
+.home h1 {
   margin-bottom: 1em;
 }
 
-p {
+.home p {
   margin: 1em 0;
 }
 
-a {
+.home a {
   color: #00a;
 }
 
-a:hover {
+.home a:hover {
   color: black;
 }
 
-a:visited {
+.home a:visited {
   color: #a0a;
 }
 
-table {
+.home table {
   font-size: inherit;
   font: 100%;
 }
