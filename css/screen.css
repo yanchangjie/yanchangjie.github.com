@@ -63,6 +63,51 @@
   text-align: center;
 }*/
 
+div {
+    display: block;
+}
+
+.post-container{
+    background-color: #fff;
+    border-top: 1px solid #eaecee;
+    border-bottom: 1px solid #eaecee;
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.post-header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Desktop or larger */
+@media (min-width: 1000px) {
+    .post-header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 700px) {
+    .post-header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.post-content {
+
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
